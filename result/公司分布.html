@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/beijing.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/themes/vintage.js"></script>
+
+</head>
+<body>
+    <div id="526db444249e483b801d56ac4f8093ce" class="chart-container" style="width:650px; height:500px;"></div>
+    <script>
+        var chart_526db444249e483b801d56ac4f8093ce = echarts.init(
+            document.getElementById('526db444249e483b801d56ac4f8093ce'), 'vintage', {renderer: 'canvas'});
+        var option_526db444249e483b801d56ac4f8093ce = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "series": [
+        {
+            "type": "effectScatter",
+            "name": "geo",
+            "coordinateSystem": "geo",
+            "showEffectOn": "render",
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            },
+            "symbolSize": 12,
+            "data": [
+                {
+                    "name": "\u4e1c\u57ce\u533a",
+                    "value": [
+                        116.42,
+                        39.93,
+                        66
+                    ]
+                },
+                {
+                    "name": "\u4e30\u53f0\u533a",
+                    "value": [
+                        116.28,
+                        39.85,
+                        37
+                    ]
+                },
+                {
+                    "name": "\u5927\u5174\u533a",
+                    "value": [
+                        116.33,
+                        39.73,
+                        90
+                    ]
+                },
+                {
+                    "name": "\u5ef6\u5e86\u533a",
+                    "value": [
+                        115.97,
+                        40.45,
+                        1
+                    ]
+                },
+                {
+                    "name": "\u6000\u67d4\u533a",
+                    "value": [
+                        116.63,
+                        40.32,
+                        1
+                    ]
+                },
+                {
+                    "name": "\u623f\u5c71\u533a",
+                    "value": [
+                        116.13,
+                        39.75,
+                        6
+                    ]
+                },
+                {
+                    "name": "\u660c\u5e73\u533a",
+                    "value": [
+                        116.23,
+                        40.22,
+                        56
+                    ]
+                },
+                {
+                    "name": "\u671d\u9633\u533a",
+                    "value": [
+                        125.28,
+                        43.83,
+                        865
+                    ]
+                },
+                {
+                    "name": "\u6d77\u6dc0\u533a",
+                    "value": [
+                        116.3,
+                        39.95,
+                        1010
+                    ]
+                },
+                {
+                    "name": "\u77f3\u666f\u5c71",
+                    "value": [
+                        116.22,
+                        39.9,
+                        18
+                    ]
+                },
+                {
+                    "name": "\u897f\u57ce\u533a",
+                    "value": [
+                        116.37,
+                        39.92,
+                        57
+                    ]
+                },
+                {
+                    "name": "\u901a\u5dde\u533a",
+                    "value": [
+                        116.65,
+                        39.92,
+                        10
+                    ]
+                },
+                {
+                    "name": "\u95e8\u5934\u6c9f",
+                    "value": [
+                        116.1,
+                        39.93,
+                        1
+                    ]
+                },
+                {
+                    "name": "\u987a\u4e49\u533a",
+                    "value": [
+                        116.65,
+                        40.13,
+                        14
+                    ]
+                }
+            ],
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "geo"
+            ],
+            "selected": {
+                "geo": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "formatter": function (params) {        return params.name + ' : ' + params.value[2];    },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0
+    },
+    "title": [
+        {
+            "text": "\u516c\u53f8\u5206\u5e03",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "geo": {
+        "map": "\u5317\u4eac",
+        "roam": true,
+        "emphasis": {}
+    }
+};
+        chart_526db444249e483b801d56ac4f8093ce.setOption(option_526db444249e483b801d56ac4f8093ce);
+    </script>
+</body>
+</html>

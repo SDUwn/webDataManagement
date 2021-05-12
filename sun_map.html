@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="7cd42681777f444b99e3685a1be35d5e" class="chart-container" style="width:1000px; height:600px;"></div>
+    <script>
+        var chart_7cd42681777f444b99e3685a1be35d5e = echarts.init(
+            document.getElementById('7cd42681777f444b99e3685a1be35d5e'), 'white', {renderer: 'canvas'});
+        var option_7cd42681777f444b99e3685a1be35d5e = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "sunburst",
+            "data": [
+                {
+                    "value": 20,
+                    "name": "\u8ba1\u7b97\u673a\u4e0e\u4fe1\u606f\u5de5\u7a0b\u5b66\u9662",
+                    "children": [
+                        {
+                            "value": "7",
+                            "name": "\u8f6f\u4ef6\u5de5\u7a0b"
+                        },
+                        {
+                            "value": "3",
+                            "name": "\u8f6f\u4ef6\u5de5\u7a0b\u4ea7\u4e1a "
+                        },
+                        {
+                            "value": "3",
+                            "name": "\u4fe1\u606f\u5b89\u5168 "
+                        },
+                        {
+                            "value": "2",
+                            "name": "\u901a\u4fe1\u5de5\u7a0b "
+                        },
+                        {
+                            "value": "2",
+                            "name": "\u901a\u4fe1\u5de5\u7a0b\u4ea7\u4e1a "
+                        },
+                        {
+                            "value": "2",
+                            "name": "\u8ba1\u7b97\u673a\u79d1\u5b66\u4e0e\u6280\u672f"
+                        },
+                        {
+                            "value": "1",
+                            "name": "\u7535\u5b50\u4fe1\u606f\u5de5\u7a0b "
+                        }
+                    ]
+                },
+                {
+                    "value": 12,
+                    "name": "\u7269\u7406\u4e0e\u7535\u5b50\u79d1\u5b66\u5b66\u9662",
+                    "children": [
+                        {
+                            "value": "2",
+                            "name": "\u7269\u7406\u5b66 "
+                        },
+                        {
+                            "value": "1",
+                            "name": "\u5149\u7535\u4fe1\u606f\u4e0e\u5de5\u7a0b "
+                        },
+                        {
+                            "value": "3",
+                            "name": "\u5fae\u7535\u5b50\u79d1\u5b66\u4e0e\u5de5\u7a0b"
+                        },
+                        {
+                            "value": "6",
+                            "name": "\u7535\u5b50\u79d1\u5b66\u4e0e\u6280\u672f "
+                        }
+                    ]
+                }
+            ],
+            "center": [
+                "50%",
+                "50%"
+            ],
+            "radius": [
+                0,
+                "95%"
+            ],
+            "highlightPolicy": "ancestor",
+            "nodeClick": "rootToNode",
+            "sort": "null",
+            "levels": [
+                {},
+                {
+                    "r0": "15%",
+                    "r": "35%",
+                    "itemStyle": {
+                        "borderWidth": 2
+                    },
+                    "label": {
+                        "rotate": "tangential"
+                    }
+                },
+                {
+                    "r0": "35%",
+                    "r": "70%",
+                    "label": {
+                        "align": "right"
+                    }
+                },
+                {
+                    "r0": "70%",
+                    "r": "72%",
+                    "label": {
+                        "position": "outside",
+                        "padding": 3,
+                        "silent": false
+                    },
+                    "itemStyle": {
+                        "borderWidth": 3
+                    }
+                }
+            ],
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": "{b}"
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0
+    },
+    "title": [
+        {
+            "text": "Sunburst-\u793a\u4f8b",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_7cd42681777f444b99e3685a1be35d5e.setOption(option_7cd42681777f444b99e3685a1be35d5e);
+    </script>
+</body>
+</html>
